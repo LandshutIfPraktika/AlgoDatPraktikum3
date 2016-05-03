@@ -30,7 +30,7 @@ public class Main {
                 measurements[i] = measurement;
             }
             final long max = Stream.of(measurements).flatMapToLong(s -> LongStream.of(s)).max().getAsLong();
-            final int maxSize = String.format("%d", max).length() - 1;
+            final int maxSize = String.format("%d", max).length();
             final StringBuilder builder = new StringBuilder();
             builder.append("Problem size: ").append(n).append("\n").append("Problem: \t\t");
             for (int i = 0; i < problems.length; i++) {
