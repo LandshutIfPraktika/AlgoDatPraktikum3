@@ -1,0 +1,18 @@
+Problem size: 100000
+Problem: 		Random	DecRange	IncRange	Uniform	
+InsertionSort		1031	1907	   0	   0	
+QuickSort		       7	   2	   2	   3
+MergeSort		      11	   6	   6	   5
+JavaSort		       7	   1	   1	   0
+StreamSort		       7	   2	   1	   0
+CollectionsSort		  19	   5	   2	   2	
+
+Problem size: 1000000
+Problem: 		Random	DecRange	IncRange	Uniform	
+InsertionSort		 94821	191842	     3	     3	
+QuickSort		        78      23	    22	    28
+MergeSort	    	   119	    65	    64	    57
+JavaSort	    	    62	     1	     1	     1
+StreamSort		        65	     4	     3	     3
+CollectionsSort		   226	    14	    14	    14	
+

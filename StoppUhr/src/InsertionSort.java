@@ -18,7 +18,7 @@ public class InsertionSort extends DoubleGuardSorter implements IntSorter {
                 }
             }
         }
-        System.arraycopy(removeGuards(keys), 0, keysOrig, 0, keysOrig.length);
+        System.arraycopy(super.removeGuards(keys), 0, keysOrig, 0, keysOrig.length);
     }
 
 }

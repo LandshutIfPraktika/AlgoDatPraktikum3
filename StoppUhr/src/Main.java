@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 public class Main {
 
     private final static int[] problemSizes = new int[]{100000, 1000000};
-    private final static IntSorter[] algorithms = new IntSorter[]{new InsertionSort(), new QuickSort(), new MergeSort(), new JavaSort()};
+    private final static IntSorter[] algorithms = new IntSorter[]{new InsertionSort(), new QuickSort(), new MergeSort(), new JavaSort(), new StreamSort(), new CollectionsSort()};
     private final static ArrayCreator[] problems = new ArrayCreator[]{new ArrayCreator.Random(), new ArrayCreator.DecRange(), new ArrayCreator.IncRange(), new ArrayCreator.Uniform()};
 
 
